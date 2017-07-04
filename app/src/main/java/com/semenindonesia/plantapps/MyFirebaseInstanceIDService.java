@@ -1,6 +1,7 @@
 package com.semenindonesia.plantapps;
 
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.iid.FirebaseInstanceIdService;
@@ -20,6 +21,8 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
         //Displaying token on logcat
         Log.d(TAG, "Refreshed token: " + refreshedToken);
+
+        Toast.makeText(getApplicationContext(), "Token :" + refreshedToken, Toast.LENGTH_LONG).show();
 
     }
 
