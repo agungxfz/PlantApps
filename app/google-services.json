@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "674220797691",
+    "firebase_url": "https://mtbf-mttr.firebaseio.com",
+    "project_id": "mtbf-mttr",
+    "storage_bucket": "mtbf-mttr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674220797691:android:fc9940f03f0daabf",
+        "android_client_info": {
+          "package_name": "com.semenindonesia.plantapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674220797691-99a8jaq2q8644kpn9d5a1ni1oh43hrpl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWimstNe4lBd_xmhMYEmmZdQW4621K5rs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
